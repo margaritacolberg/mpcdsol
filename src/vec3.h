@@ -10,21 +10,21 @@
 #include <ostream>
 
 struct Vec3 {
-    double x, y, z;
-    Vec3() = default;
-    Vec3(double x, double y, double z) : x(x), y(y), z(z) {}
+  double x, y, z;
+  Vec3() = default;
+  Vec3(double x, double y, double z) : x(x), y(y), z(z) {}
 };
 
-inline std::ostream& operator<<(std::ostream& os, const Vec3& v) {
-    return os << v.x << " " << v.y << " " << v.z;
+inline std::ostream &operator<<(std::ostream &os, const Vec3 &v) {
+  return os << v.x << " " << v.y << " " << v.z;
 }
 
-inline bool operator==(const Vec3& v1, const Vec3& v2) {
-    return v1.x == v2.x && v1.y == v2.y && v1.z == v2.z;
+inline bool operator==(const Vec3 &v1, const Vec3 &v2) {
+  return v1.x == v2.x && v1.y == v2.y && v1.z == v2.z;
 }
 
-inline bool operator!=(const Vec3& v1, const Vec3& v2) {
-    return v1.x != v2.x || v1.y != v2.y || v1.z != v2.z;
+inline bool operator!=(const Vec3 &v1, const Vec3 &v2) {
+  return v1.x != v2.x || v1.y != v2.y || v1.z != v2.z;
 }
 
 #endif
