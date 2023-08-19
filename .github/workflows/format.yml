@@ -9,6 +9,7 @@ on:
       - .github/workflows/format.yml
       - src/**.cc
       - src/**.h
+  workflow_dispatch:
 
 jobs:
   format:
