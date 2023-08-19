@@ -16,7 +16,8 @@ calculated for each.
 See top level comment in each file for more details as to what each file does.
 Some top level comments also contain examples of how to run each file, if
 complicated. The pathways given in these examples assume user is currently in
-the `mpcdsol/crambin` directory.
+the `mpcdsol/crambin` directory. Download `crambin.zip` from
+[Releases](https://github.com/margaritacolberg/mpcdsol/releases).
 
   * `src`: C++ source code for MPCDSol program
 
